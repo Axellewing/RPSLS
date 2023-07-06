@@ -83,6 +83,8 @@ to reset the game.
 
 - [CSS code has been validated by Jigsaw validation tool](https://jigsaw.w3.org/css-validator/)
 
+- ![Html approved](https://github.com/Axellewing/RPSLS/assets/127880600/0fa1ca81-abeb-41f2-aff6-cb848f4de148)
+
 # Attributions
 
 - [Rock image taken from Unsplash](https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9ja3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60)
