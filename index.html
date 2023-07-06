@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="full-game-container">
+        <!-- Title Screen section where users can start the game -->
+        <div class="title-screen active">
+            <div class="title-screen-container">
+                <div class="logo-container">
+                    <img src="assets/logo.svg" alt="game logo" class="logo">
+                </div>
+
+                <div class="difficulty-select">
+                    <div class="difficulty-title">
+                        New Game
+                    </div>
+                    <div class="difficulty-options">
+                        <div class="difficulty" data-difficulty="easy" id="easy">Easy</div>
+                        <div class="difficulty" data-difficulty="normal" id="normal">Normal</div>
+                        <div class="difficulty" data-difficulty="hard" id="hard">Hard</div>
+                        <div class="difficulty" data-difficulty="impossible" id="impossible">Impossible</div>
+                    </div>
+                </div>
+            </div>
+            <!--The game rules section contains the rules of the game-->
+            <div class="game-rules-container">
+                <div class="rules-heading">
+                    How To Play
+                </div>
+                <div class="rules-container">
+                    <img src="./assets/images/rpsls-image.jpg" alt="people playing the game" class="rules-image">
+                    <div class="rules-description">
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Scissors cuts Paper
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1620256183134-aeffb50f557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                    alt="image of a scissors" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1588941288445-b1a5f3977b9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHBhcGVyfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a paper" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Paper covers Rock
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1588941288445-b1a5f3977b9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHBhcGVyfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a paper" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9ja3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a rock" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Rock cruches Lizard
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9ja3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a rock" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1607863002591-e1718c499b07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGl6YXJkfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a lizard" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Lizard poisons Spock
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1607863002591-e1718c499b07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGl6YXJkfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a lizard" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1550479023-2a811e19dfd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhciUyMHRyZWt8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of Spock" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Spock smashes Scissors
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1550479023-2a811e19dfd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhciUyMHRyZWt8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of Spock" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1620256183134-aeffb50f557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                    alt="image of a scissors" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Scissors decapitates Lizard
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1620256183134-aeffb50f557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                    alt="image of a scissors" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1607863002591-e1718c499b07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGl6YXJkfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a lizard" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Lizard eats Paper
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1607863002591-e1718c499b07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGl6YXJkfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a lizard" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1588941288445-b1a5f3977b9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHBhcGVyfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a paper" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Paper disproves Spock
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1588941288445-b1a5f3977b9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHBhcGVyfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a paper" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1550479023-2a811e19dfd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhciUyMHRyZWt8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of Spock" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Spock vaporizes Rock
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1550479023-2a811e19dfd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhciUyMHRyZWt8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of Spock" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9ja3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a rock" class="rule-img">
+                            </div>
+                        </div>
+                        <div class="game-rule">
+                            <div class="game-rule-title">
+                                Rock crushes Scissors
+                            </div>
+                            <div class="game-rule-images">
+                                <img src="https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9ja3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60"
+                                    alt="image of a rock" class="rule-img">
+                                <img src="https://images.unsplash.com/photo-1620256183134-aeffb50f557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                    alt="image of a scissors" class="rule-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Section with info about Sheldon and how to play against him-->
+                <div class="sheldon-cooper-container">
+                    <div class="sheldon-heading">
+                        Play against Sheldon Cooper
+                    </div>
+                    <div class="sheldon-info">
+                        <img class="sheldon-image" alt="cartoon image of Sheldon Cooper"
+                            src="./assets/images/sheldon.png">
+                        <div class="sheldon-description">
+                            <div class="sheldon-text">
+                                Sheldon is a Nobel Prize-winning physicist, his mind and
+                                behavior have made him that. Do you have what it takes to beat him in a game of Rock
+                                Paper Scissor Lizard Spock? Give it a try here.
+                            </div>
+                            <button class="play-sheldon difficulty difficulty" data-difficulty="sheldon">
+                                Play Against Sheldon
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--This contains the game itself where users can play against the computer-->
+        <div class="game disabled">
+            <div class="heading">
+                Battle Begins
+            </div>
+
+            <div class="battle">
+                <div class="bubble player-bubble">
+                    <div class="name">Player</div>
+                    <img src="./assets/icons/placeholder.svg" alt="player choice" id="player-choice" class="result">
+                </div>
+                <div class="game-info">
+                    <div class="score">
+                        <span class="player-score">0</span>
+                        :
+                        <span class="computer-score">0</span>
+                    </div>
+                    <div class="display-text">
+                        Who will win?
+                    </div>
+                    <div class="round-winner"></div>
+                </div>
+                <div class="bubble computer-bubble">
+                    <div class="name" id="computer-name">Computer</div>
+                    <img src="./assets/icons/placeholder.svg" alt="computer choice" id="computer-choice" class="result">
+                </div>
+            </div>
+
+            <div class="options">
+                <img src="assets/icons/rock.svg" alt="rock icon" data-value="rock" class="choice">
+                <img src="assets/icons/paper.svg" alt="paper icon" data-value="paper" class="choice">
+                <img src="assets/icons/scissors.svg" alt="scissors icon" data-value="scissors" class="choice">
+                <img src="assets/icons/lizard.svg" alt="lizard icon" data-value="lizard" class="choice">
+                <img src="assets/icons/spock.svg" alt="spock icon" data-value="spock" class="choice">
+            </div>
+        </div>
+        <!--This screen appears when the user has played 5 rounds, here they can view the final score or reset-->
+        <div class="game-ended">
+            <div class="game-ended-logo-container">
+                <img src="./assets/logo.svg" alt="website logo" class="game-ended-logo">
+            </div>
+            <div class="game-ended-info">
+                <div class="final-winner">
+                    Game ended in Player Victory
+                </div>
+                <div class="final-score">
+                    <div class="final-score-player">
+                        <div class="name-final-score">
+                            Player
+                        </div>
+                        <div class="score-bubble">
+                            <div class="player-score-final"></div>
+                        </div>
+                    </div>
+                    <div class="final-score-computer">
+                        <div class="name-final-score">
+                            Computer
+                        </div>
+                        <div class="score-bubble">
+                            <div class="computer-score-final"></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="play-again">
+                    Play Again
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!--This is the script file used-->
+    <script src="scripts/script.js" defer></script>
+</body>
+
+</html>
