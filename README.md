@@ -71,19 +71,20 @@ to reset the game.
 
 - [JavaScript Code has beem validated by JSHint](https://jshint.com/)
 
-- ![JS Hint](https://github.com/Axellewing/RPSLS/assets/127880600/fed5a3e5-9e8f-45f4-b2c9-2f6ea34c82d7)
+- ![JS Hint](https://github.com/Axellewing/RPSLS/assets/127880600/702ecbe5-dc2e-4fd5-9409-f0799a272384)
 
 ![](/assets/validation/html-validation.png)
 
 - [HTML has been validated by the official W3C validation tool](https://validator.w3.org/)
 
-- ![Html approved](https://github.com/Axellewing/RPSLS/assets/127880600/97f4b090-e93c-42a2-927b-7ea1c4f35918)
+- ![Html approved](https://github.com/Axellewing/RPSLS/assets/127880600/9a7173c3-e776-42d8-be4d-7866bbf20baa)
 
 ![](/assets/validation/css-validation.png)
 
 - [CSS code has been validated by Jigsaw validation tool](https://jigsaw.w3.org/css-validator/)
 
-- ![Html approved](https://github.com/Axellewing/RPSLS/assets/127880600/0fa1ca81-abeb-41f2-aff6-cb848f4de148)
+- ![CSS-approved](https://github.com/Axellewing/RPSLS/assets/127880600/139ea117-2a13-447a-a9bd-9d4fca3e69f5)
+
 
 # Attributions
 
