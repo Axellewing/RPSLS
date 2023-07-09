@@ -73,13 +73,9 @@ to reset the game.
 
 - ![JS Hint](https://github.com/Axellewing/RPSLS/assets/127880600/702ecbe5-dc2e-4fd5-9409-f0799a272384)
 
-![](/assets/validation/html-validation.png)
-
 - [HTML has been validated by the official W3C validation tool](https://validator.w3.org/)
 
 - ![Html approved](https://github.com/Axellewing/RPSLS/assets/127880600/9a7173c3-e776-42d8-be4d-7866bbf20baa)
-
-![](/assets/validation/css-validation.png)
 
 - [CSS code has been validated by Jigsaw validation tool](https://jigsaw.w3.org/css-validator/)
 
