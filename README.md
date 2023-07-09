@@ -67,10 +67,10 @@ to reset the game.
 
 # Website Validation
 
-![](/assets/validation/jshint-validation.png)
-
 - [JavaScript Code has beem validated by JSHint](https://jshint.com/)
 
+- ![](/assets/validation/jshint-validation.png)
+  
 - [HTML has been validated by the official W3C validation tool](https://validator.w3.org/)
 
 - ![Html approved](https://github.com/Axellewing/RPSLS/assets/127880600/9a7173c3-e776-42d8-be4d-7866bbf20baa)
