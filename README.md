@@ -55,18 +55,6 @@ will be able to see their final result along with the final result of the comput
 - Spock vaporizes rock.
 - Rock crushes scissors.
 
-## Deployment
-
-This project was deployed using Code Institute's mock terminal for Heroku.
-
-- Steps for deployment:
-    - Navigate to GitHub settings.
-    - On the left side of the page, click on pages.
-    - Choose drop-down menu from the scource section and select Master Branch.
-    - The link to the website will be provided once Master branch have been selected. 
-
-    [Live version.](https://axellewing.github.io/RPSLS/)
-
 
 # On this project, players should be able to:
 
