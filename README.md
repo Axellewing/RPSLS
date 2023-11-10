@@ -126,15 +126,12 @@ will be able to see their final result along with the final result of the comput
 
 ## Deployment
 
-This project was deployed using Code Institute's mock terminal for Heroku.
+1. In the GitHub repository, go to settings -> Pages
+2. In the Pages tab, you will see a dropdown menu where you have to select the Main branch of the website
+3. Click on "Save" and GitHub will begin the hosting process and once the website is hosted, you will see the link to your site.
 
-- Steps for deployment:
-    - Navigate to GitHub settings.
-    - On the left side of the page, click on pages.
-    - Choose drop-down menu from the scource section and select Master Branch.
-    - The link to the website will be provided once Master branch have been selected. 
-
-    [Live version.](https://axellewing.github.io/RPSLS/)
+The live link can be found here: 
+[Live version.](https://axellewing.github.io/RPSLS/)
 
 
 # On this project, players should be able to:
