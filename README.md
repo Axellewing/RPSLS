@@ -1,8 +1,6 @@
 # Rock Paper Scissors Lizard Spock
-Rock Paper Scissors Lizard Spock is a variation of the classic rock paper scissors game. It adds two new possible chocies to the game and was created to make the original game more challening. The game was later popularized by hte show "The Big Bang Theory". 
 
-This web application gives the users the oppertunity to play and enjoy this version of the popular rock apper scissors game. And also features a hidden easter-egg game mode that can be played by players who explore the page. 
-![](/assets/images/png/game-screens.png)
+![](/assets/images/png/logo.png)
 
 # Project Build With
 
