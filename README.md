@@ -4,6 +4,55 @@ Rock Paper Scissors Lizard Spock is a variation of the classic rock paper scisso
 This web application gives the users the oppertunity to play and enjoy this version of the popular rock apper scissors game. And also features a hidden easter-egg game mode that can be played by players who explore the page. 
 ![](/assets/images/png/game-screens.png)
 
+# Features
+
+- # Game Modes
+
+![](/assets/images/png/game-modes.png)
+
+1. Easy - This game mode allows the users to play against the computer and have a 66% chance of winning the game
+2. Normal - This game mode allows users to play the game the normal way, with a 50/50 chance of winning
+3. Hard - This game mode allows users to play the game and only have a 33% chance of winning
+4. Impossible - This game mode allows the users to play the game with a 0% chance of winning
+
+- # How to Play 
+
+![](/assets/images/png/how-to-play.png)
+
+This section of the page features the game rules of the web application. Each rule has a title 
+describing the rule and two images below with a hover effect that allows the user to visualize the rule 
+to better remember it.
+
+- # Game Score
+
+![](/assets/images/png/score.png)
+
+This section of the page displayes all of the useful information that is needed for the player to understand what is going on.
+
+It contains:
+
+1. The player score
+2. The computer score
+3. The hand that was played by the player
+4. The hand that was played by the computer
+5. Text describing the outcome of the game (i.e "lizard eats paper")
+6. Text that tells the player who won the round
+
+
+- # Possible Options
+
+  ![](/assets/images/png/options.png)
+
+  This section of the page contains all the possible options that the player can chose from.
+
+  - # Victory Section
+ 
+  ![](/assets/images/png/victory.png)
+ 
+  This section of the page appears once the player plays 5 hands with the computer. It displays to the player who
+  won the round and what the final score was for the player and the computer. It also contains a "Play Again" button which allows the
+  player to play the game again.
+
 # Project Build With
 
 - Semantic HTML5
