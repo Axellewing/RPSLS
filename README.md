@@ -53,24 +53,6 @@ It contains:
   won the round and what the final score was for the player and the computer. It also contains a "Play Again" button which allows the
   player to play the game again.
 
-  # Testing
-
-This web application was tested to make sure that everything works properly. There has been no bugs or issues discovered yet. 
-The game runs smoothly without any issue. Each game mode button navigates the player/user to the actual game where the computer's performance depends on the game mode that has been selected by the player. 
-
-The score section always displays the correct score and the outcome text alwas displays the correct outcome depending on the
-hand selected by the player and computer. 
-
-The end screen always displays the correct final score for the player and computer. The Play Again button returns the player
-to the Title Screen where they can select the game mode they want to play or they can scroll through the page to look at the game modes 
-or to discover the easter egg game mode that they can play.
-
-The website has been tasted to make sure that it responds well to different screen widhts and has been tested on multiple browsers to 
-ensure cross-browser compatibility.
-
-I have manually tested this project by running it in my local enviorment and in the production-mode. 
-I have sent the live link to friends and family for them to test it out, and so far they have not been running into any issues. 
-
 # Project Build With
 
 - Semantic HTML5
