@@ -147,18 +147,18 @@ to reset the game.
 
 - [JavaScript Code has beem validated by JSHint](https://jshint.com/)
 
-- ![](/assets/images/png/jshint-validation.png)
+- ![](/assets/validation/jshint-validation.png)
   
 - [HTML has been validated by the official W3C validation tool](https://validator.w3.org/)
 
-![](/assets/images/png/html-validation.png)
+- ![Html approved](https://github.com/Axellewing/RPSLS/assets/127880600/9a7173c3-e776-42d8-be4d-7866bbf20baa)
 
 - [CSS code has been validated by Jigsaw validation tool](https://jigsaw.w3.org/css-validator/)
 
-![](/assets/images/png/css-validation.png)
+- ![CSS-approved](https://github.com/Axellewing/RPSLS/assets/127880600/139ea117-2a13-447a-a9bd-9d4fca3e69f5)
 
 
-# Credits
+# Attributions
 
 - [Rock image taken from Unsplash](https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9ja3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60)
 
