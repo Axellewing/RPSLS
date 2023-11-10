@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock
 
-![](/assets/screenshots/logo.png)
+![](/assets/images/png/logo.png)
 
 # Project Build With
 
@@ -30,7 +30,7 @@ will be able to see their final result along with the final result of the comput
 
 # Game Modes
 
-![](/assets/screenshots/game-modes.png)
+![](/assets/images/png/game-modes.png)
 
 - Easy Mode - Player will have a 66% chance of winning a round
 
