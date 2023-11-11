@@ -79,6 +79,7 @@ const OUTCOMES = [
     }
 ];
 
+// find different elements and save it inside variables for later usage
 const titleScreen = document.querySelector(".title-screen");
 const gameContainer = document.querySelector(".game");
 const difficultyButtons = document.querySelectorAll(`[data-difficulty]`);
@@ -103,10 +104,10 @@ const displayComputerScoreFinal = document.querySelector(".computer-score-final"
 
 let roundWinner = document.querySelector(".round-winner ");
 
-//When player selects a difficulty
+// User loops through the different difficilty buttons
 //the difficulty is updated and we remove the title screen
 //and display the main game
-difficultyButtons.forEach(function(button) {
+difficultyButtons.forEach((button) => {
     button.addEventListener("click", function() {
         titleScreen.classList.remove("active");
         gameContainer.classList.add("active");
@@ -114,17 +115,15 @@ difficultyButtons.forEach(function(button) {
     });
 });
 
-//Text that displays who won and why
+// find element where winner will be displayed
 const displayText = document.querySelector(".display-text");
 
-//Hand that won the round
 let winningHand = "";
-//Hand that lost the round
 let losingHand = "";
 
-//Icon gets displayed based on player selection
+// track users selected icon
 const playerIcon = document.querySelector("#player-choice");
-//Icon gets displayed based on computer selection
+// track computers selected icon
 const computerIcon = document.querySelector("#computer-choice");
 
 //Selects all the available choices with special data-value attribute
