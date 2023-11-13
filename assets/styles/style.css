@@ -689,7 +689,7 @@ Some code snippets were also taken directly from the codepen
     width: 225px;
     height: 225px;
     border-radius: 50%;
-    background-image: url('/assets/images/svg/placeholder.svg');
+    background-image: url('../images/svg/placeholder.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
