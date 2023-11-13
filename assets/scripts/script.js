@@ -160,7 +160,6 @@ const playerAlwaysWins = (player) => {
 };
 
 //Player has 66% chance of winning
-function EasyMode(player) {
 const easyMode = (player) => {
     let probability = Math.random().toFixed(2);
 
