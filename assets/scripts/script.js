@@ -1,27 +1,27 @@
 const OPTIONS = [
     {
         name: "rock",
-        url: "./assets/icons/rock.svg",
+        url: "./assets/images/svg/rock.svg",
         wins: ["scissors", "lizard"]
     },
     {
         name: "paper",
-        url: "./assets/icons/paper.svg",
+        url: "./assets/images/svg/paper.svg",
         wins: ["rock", "spock"]
     },
     {
         name: "scissors",
-        url: "./assets/icons/scissors.svg",
+        url: "./assets/images/svg/scissors.svg",
         wins: ["paper", "lizard"]
     },
     {
         name: "lizard",
-        url: "./assets/icons/lizard.svg",
+        url: "./assets/images/svg/lizard.svg",
         wins: ["spock", "paper"]
     },
     {
         name: "spock",
-        url: "./assets/icons/spock.svg",
+        url: "./assets/images/svg/spock.svg",
         wins: ["scissors", "rock"]
     },
 ];
@@ -326,6 +326,6 @@ resetButton.addEventListener("click", function() {
     displayComputerScore.innerText = 0;
     displayPlayerScore.innerText = 0;
     roundWinner.innerText = "";
-    playerIcon.src = "./assets/icons/placeholder.svg";
-    computerIcon.src = "./assets/icons/placeholder.svg";
+    playerIcon.src = "./assets/images/svg/placeholder.svg";
+    computerIcon.src = "./assets/images/svg/placeholder.svg";
 });

@@ -163,19 +163,19 @@ html {
 }
 
 #easy::before {
-    background-image: url('../icons/easy.svg');
+    background-image: url('../images/svg/easy.svg');
 }
 
 #normal::before {
-    background-image: url('../icons/normal.svg');
+    background-image: url('../images/svg/normal.svg');
 }
 
 #hard::before {
-    background-image: url('../icons/hard.svg');
+    background-image: url('../images/svg/hard.svg');
 }
 
 #impossible::before {
-    background-image: url('../icons/sheldon.svg');
+    background-image: url('../images/svg/sheldon.svg');
 }
 
 
@@ -689,7 +689,7 @@ Some code snippets were also taken directly from the codepen
     width: 225px;
     height: 225px;
     border-radius: 50%;
-    background-image: url('/assets/icons/placeholder.svg');
+    background-image: url('/assets/images/svg/placeholder.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
