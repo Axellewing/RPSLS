@@ -171,11 +171,11 @@ function EasyMode(player) {
 
 }
 
-//Player has 50/50 chance of winning
-function NormalMode () {
-    let random = Math.floor(Math.random() * OPTIONS.length);
-    console.log("Normal Mode");
-    return OPTIONS[random].name;
+
+// the computer's choice is completely random. A random choice from the available options.
+const NormalMode = () => {
+    let random = Math.floor(Math.random() * OPTIONS.length); // random number between 0 (inclusive) and OPTIONS.length (exclusive).
+    return OPTIONS[random].name; // returns the name property of the option at the randomly chosen index 
 }
 
 //Computer always wins
