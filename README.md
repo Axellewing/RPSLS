@@ -1,6 +1,64 @@
 # Rock Paper Scissors Lizard Spock
+Rock Paper Scissors Lizard Spock is a variation of the classic rock paper scissors game. It adds two new possible chocies to the game and was created to make the original game more challening. The game was later popularized by hte show "The Big Bang Theory". 
 
-![](/assets/screenshots/logo.png)
+This web application gives the users the oppertunity to play and enjoy this version of the popular rock apper scissors game. And also features a hidden easter-egg game mode that can be played by players who explore the page. 
+![](/assets/images/png/game-screens.png)
+
+# Features
+
+- # Game Modes
+
+![](/assets/images/png/game-modes.png)
+
+1. Easy - This game mode allows the users to play against the computer and have a 66% chance of winning the game
+2. Normal - This game mode allows users to play the game the normal way, with a 50/50 chance of winning
+3. Hard - This game mode allows users to play the game and only have a 33% chance of winning
+4. Impossible - This game mode allows the users to play the game with a 0% chance of winning
+
+- # How to Play 
+
+![](/assets/images/png/how-to-play.png)
+
+This section of the page features the game rules of the web application. Each rule has a title 
+describing the rule and two images below with a hover effect that allows the user to visualize the rule 
+to better remember it.
+
+- # Game Score
+
+![](/assets/images/png/score.png)
+
+This section of the page displayes all of the useful information that is needed for the player to understand what is going on.
+
+It contains:
+
+1. The player score
+2. The computer score
+3. The hand that was played by the player
+4. The hand that was played by the computer
+5. Text describing the outcome of the game (i.e "lizard eats paper")
+6. Text that tells the player who won the round
+
+
+ - # Possible Options
+
+  ![](/assets/images/png/options.png)
+
+  This section of the page contains all the possible options that the player can chose from.
+
+ - # Victory Section
+ 
+  ![](/assets/images/png/victory.png)
+ 
+  This section of the page appears once the player plays 5 hands with the computer. It displays to the player who
+  won the round and what the final score was for the player and the computer. It also contains a "Play Again" button which allows the
+  player to play the game again.
+
+
+# Testing
+
+I have manually tested this project by running it in my local enviorment and in the production-mode. 
+
+I have sent the live link to friends and family for them to test it out, and so far they have not been running into any issues. The website works in different browsers to ensure cross-browser compability.
 
 # Project Build With
 
@@ -8,10 +66,6 @@
 - CSS3
 - CSS Media Queries
 - JavaScript
-
-# Website Description
-
-This Web Application will allow players to play a game of Rock Paper Scissors Lizard Spock
 
 # Game Description
 
@@ -30,7 +84,7 @@ will be able to see their final result along with the final result of the comput
 
 # Game Modes
 
-![](/assets/screenshots/game-modes.png)
+![](/assets/images/png/game-modes.png)
 
 - Easy Mode - Player will have a 66% chance of winning a round
 
@@ -55,6 +109,15 @@ will be able to see their final result along with the final result of the comput
 - Spock vaporizes rock.
 - Rock crushes scissors.
 
+## Deployment
+
+1. In the GitHub repository, go to settings -> Pages
+2. In the Pages tab, you will see a dropdown menu where you have to select the Main branch of the website
+3. Click on "Save" and GitHub will begin the hosting process and once the website is hosted, you will see the link to your site.
+
+The live link can be found here: 
+[Live version.](https://axellewing.github.io/RPSLS/)
+
 
 # On this project, players should be able to:
 
@@ -69,18 +132,18 @@ to reset the game.
 
 - [JavaScript Code has beem validated by JSHint](https://jshint.com/)
 
-- ![](/assets/validation/jshint-validation.png)
+- ![](/assets/images/png/jshint-validation.png)
   
 - [HTML has been validated by the official W3C validation tool](https://validator.w3.org/)
 
-- ![Html approved](https://github.com/Axellewing/RPSLS/assets/127880600/9a7173c3-e776-42d8-be4d-7866bbf20baa)
+![](/assets/images/png/html-validation.png)
 
 - [CSS code has been validated by Jigsaw validation tool](https://jigsaw.w3.org/css-validator/)
 
-- ![CSS-approved](https://github.com/Axellewing/RPSLS/assets/127880600/139ea117-2a13-447a-a9bd-9d4fca3e69f5)
+![](/assets/images/png/css-validation.png)
 
 
-# Attributions
+# Credits
 
 - [Rock image taken from Unsplash](https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9ja3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60)
 
@@ -101,3 +164,4 @@ to reset the game.
 - [Image Upscaling done using LetsEnhance](https://letsenhance.io/)
 
 - [Website logo taken from frontendmentor.io](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
+
