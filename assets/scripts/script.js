@@ -131,7 +131,7 @@ const choices = document.querySelectorAll(`[data-value]`);
 
 //Function adds an event listener that fires every time one of the 
 //Icons is clicked
-choices.forEach(function(choice) {
+choices.forEach((choice) => {
     choice.addEventListener("click", function() {
         //player choice gets updated to the selected value
         playerChoice = choice.dataset.value;
@@ -141,20 +141,23 @@ choices.forEach(function(choice) {
     });
 });
 
-//Custom Game Modes
-//Player always wins
-function playerAlwaysWins(player) {
+// Different Game Modes
+
+
+// the player always wins.
+// this function takes playes choice as an argument, randomly selects one of the options that the player's choice can defeat, and returns that option.
+const playerAlwaysWins = (player) => {
     let randomChoice = Math.floor(Math.random() * 2);
     let result = "";
 
-    OPTIONS.forEach(function(option) {
+    OPTIONS.forEach((option) =>{
         if (option.name === player) {
             result = option.wins[randomChoice];
         }
     });
 
     return result;
-}
+};
 
 //Player has 66% chance of winning
 function EasyMode(player) {
@@ -196,14 +199,15 @@ function HardMode(player) {
 
 //Computer always throws 'spock'
 //Reference to The Big Bang Theory
-function SheldonCooper() {
+const SheldonCooper = () => {
     let result = OPTIONS.filter((option) => option.name === "spock");
 
     return result[0].name;
 }
 
 
-function getComputerChoice(player) {
+// determines the computer's choice based on the selected difficulty level
+const getComputerChoice = (player) => {
 
     let choice = "";
 
@@ -227,12 +231,17 @@ function getComputerChoice(player) {
     return choice;
 }
 
+
+// handleCheck is called whenever the player makes a choice. 
+// It compares the player's and computer's choices, updates the scores, and determines the winner for the round.
+
 //Runs every time the player selects an option
 //and checks to see who won the round
 function handleCheck(player, computer) {
 
+    // loops through the options and finds the the computers/players selected choice and stores their value to the variables
     //displays the players and computer choice to the DOM
-    OPTIONS.forEach(function(option) {
+    OPTIONS.forEach((option) => {
         if (option.name === player) {
             playerIcon.src = option.url;
         }
