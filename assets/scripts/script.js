@@ -161,18 +161,19 @@ const playerAlwaysWins = (player) => {
 
 //Player has 66% chance of winning
 function EasyMode(player) {
+const easyMode = (player) => {
     let probability = Math.random().toFixed(2);
 
     if(probability <= 0.66) {
         return playerAlwaysWins(player);
     } else {
-        return NormalMode();
+        return normalMode();
     }
 
 }
 
 // the computer's choice is completely random. A random choice from the available options.
-const NormalMode = () => {
+const normalMode = () => {
     let random = Math.floor(Math.random() * OPTIONS.length); // random number between 0 (inclusive) and OPTIONS.length (exclusive).
     return OPTIONS[random].name; // returns the name property of the option at the randomly chosen index 
 }
@@ -180,7 +181,7 @@ const NormalMode = () => {
 
 
 //Computer always wins
-const ImpossibleMode = (player) => {
+const impossibleMode = (player) => {
     let randomChoice = Math.floor(Math.random() * 2);
 
     // filters the OPTIONS array to include only those options that can defeat the player's choice (player). 
@@ -189,45 +190,42 @@ const ImpossibleMode = (player) => {
 }
 
 //Computer wins 66% of the time
-const HardMode = (player) => {
+const hardMode = (player) => {
     let probability = Math.random().toFixed(2);
 
     if (probability <= 0.66) {
-        return ImpossibleMode(player);
+        return impossibleMode(player);
     } else {
-        return NormalMode(player);
+        return normalMode(player);
     }
 }
 
 //Computer always throws 'spock'
 //Reference to The Big Bang Theory
-const SheldonCooper = () => {
+const sheldonCooper = () => {
     let result = OPTIONS.filter((option) => option.name === "spock");
-
     return result[0].name;
-}
-
+};
 
 // determines the computer's choice based on the selected difficulty level
 const getComputerChoice = (player) => {
-
     let choice = "";
 
     //computer selection based on difficulty
     if (difficulty === "easy") {
-        choice = EasyMode(player);
+        choice = easyMode(player);
     }
     if (difficulty === "normal") {
-        choice = NormalMode();
+        choice = normalMode();
     }
     if (difficulty === "hard") {
-        choice = HardMode(player);
+        choice = hardMode(player);
     }
     if (difficulty === "impossible") {
-        choice = ImpossibleMode(player);
+        choice = impossibleMode(player);
     }
     if (difficulty === "sheldon") {
-        choice = SheldonCooper();
+        choice = sheldonCooper();
     }
 
     return choice;
@@ -236,10 +234,7 @@ const getComputerChoice = (player) => {
 
 // handleCheck is called whenever the player makes a choice. 
 // It compares the player's and computer's choices, updates the scores, and determines the winner for the round.
-
-//Runs every time the player selects an option
-//and checks to see who won the round
-function handleCheck(player, computer) {
+const handleCheck = (player, computer) => {
 
     // loops through the options and finds the the computers/players selected choice and stores their value to the variables
     //displays the players and computer choice to the DOM
