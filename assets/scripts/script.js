@@ -171,23 +171,25 @@ function EasyMode(player) {
 
 }
 
-
 // the computer's choice is completely random. A random choice from the available options.
 const NormalMode = () => {
     let random = Math.floor(Math.random() * OPTIONS.length); // random number between 0 (inclusive) and OPTIONS.length (exclusive).
     return OPTIONS[random].name; // returns the name property of the option at the randomly chosen index 
 }
 
+
+
 //Computer always wins
-function ImpossibleMode(player) {
+const ImpossibleMode = (player) => {
     let randomChoice = Math.floor(Math.random() * 2);
+
+    // filters the OPTIONS array to include only those options that can defeat the player's choice (player). 
     let result = OPTIONS.filter(option => option.wins.includes(player));
-    console.log("Impossible Mode");
-    return result[randomChoice].name;
+    return result[randomChoice].name; // the filtered result represents the options that would win against the player's choice.
 }
 
 //Computer wins 66% of the time
-function HardMode(player) {
+const HardMode = (player) => {
     let probability = Math.random().toFixed(2);
 
     if (probability <= 0.66) {
