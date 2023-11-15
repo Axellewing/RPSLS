@@ -14,6 +14,8 @@ This web application gives the users the oppertunity to play and enjoy this vers
 2. Normal - This game mode allows users to play the game the normal way, with a 50/50 chance of winning
 3. Hard - This game mode allows users to play the game and only have a 33% chance of winning
 4. Impossible - This game mode allows the users to play the game with a 0% chance of winning
+5. Play with Sheldon Cooper - This is a fun mode added where the algorithm predicts what move Sheldon would make
+
 
 - # How to Play 
 
@@ -69,9 +71,9 @@ I have sent the live link to friends and family for them to test it out, and so 
 
 # Game Description
 
-Rock Paper Scissors Lizard Spock is a variation of the classic Rock Paper Scissors game. It adds 
-2 new possible choices to the game and was created to make the original game more challenging. The game was 
-later popularized by the show "The Big Bang Theory"
+Rock Paper Scissors Lizard Spock is a variation of the classic rock paper scissors game. It adds two new possible chocies to the game and was created to make the original game more challening. The game was later popularized by the show "The Big Bang Theory". 
+
+This web application gives the users the oppertunity to play and enjoy this version of the popular rock apper scissors game. And also features a hidden easter-egg game mode that can be played by players who explore the page.
 
 # How this website works
 
@@ -82,19 +84,6 @@ the player will select one of the options and see if they have won the round or 
 After the 5 rounds, the battle will end and the player will be taken to the end screen where they will see who won and 
 will be able to see their final result along with the final result of the computer.
 
-# Game Modes
-
-![](/assets/images/png/game-modes.png)
-
-- Easy Mode - Player will have a 66% chance of winning a round
-
-- Normal Mode - Player will have a 50/50 chance of winning a round
-
-- Hard Mode - Player will have a 66% chance to lose round
-
-- Impossible Mode - It will be impossible for player to win a round
-
-- Play with Sheldon Cooper - This is a fun mode added where the algorithm predicts what move Sheldon would make
 
 # Game Rules
 
