@@ -75,12 +75,12 @@ This web application gives the users the oppertunity to play and enjoy this vers
 
 # How this website works
 
-Players will choose between the available game modes and enter into a battle with the computer where they have 
+Players will choose between the 4 available game modes or the easter egg game mode and enter into a battle with the computer where they have 
 5 options to chose from: Rock, Paper, Scissors, Lizard and Spock. Each battle consist of 5 rouns, and each round
-the player will select one of the options and see if they have won the round or lost against the computer.
+the player will select one of the 5 options to see if they have won the round or lost against the computer. The player and the computers scores will be visible throughout the game period. 
 
 After the 5 rounds, the battle will end and the player will be taken to the end screen where they will see who won and 
-will be able to see their final result along with the final result of the computer.
+will be able to see their final result along with the final result of the computer. If the user wants to play again they can click the "Play again" button which resets the game and sends the user back to the Home page. 
 
 
 # Game Rules
@@ -105,15 +105,6 @@ will be able to see their final result along with the final result of the comput
 The live link can be found here: 
 [Live version.](https://axellewing.github.io/RPSLS/)
 
-
-# On this project, players should be able to:
-
-- Play Rock Paper Scissors Lizard Spock agains the computer
-- Chose between 4 different game modes and 1 easter egg game mode
-- Select between the 5 available options when playing the game
-- View their score as they are playing the game
-- At the end of each battle, players will be able to see their final score and will be able 
-to reset the game.
 
 # Website Validation
 
